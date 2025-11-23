@@ -75,18 +75,7 @@ API endpoints:
 - Start: `npm run start`
 - Lint: `npm run lint`
 
-## Deploy to GitHub
 
-```bash
-git init
-git add .
-git commit -m "feat: bootstrap japanstack example"
-git branch -M main
-git remote add origin https://github.com/<yourname>/japanstack.git
-git push -u origin main
-```
-
-Optionally configure repository Settings → Secrets to match your `.env` when using Actions or a deployment platform.
 
 ## Deploy to Vercel (optional)
 
